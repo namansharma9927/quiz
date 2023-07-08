@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="styles.css" rel="stylesheet">
+  <script defer src="script.js"></script>
+  <title>Basic Computer Science Engineering Quiz</title>
+</head>
+<body>
+  <div class="container">
+    <h1>Basic Computer Science Engineering Quiz</h1>
+    <div id="instructions">
+      <p>Instructions:</p>
+      <ul>
+        <li>For every correct answer, you will receive 4 marks.</li>
+        <li>For every wrong answer, 1 mark will be deducted.</li>
+        <li>If you give 5 consecutive wrong answers, the quiz will restart.</li>
+      </ul>
+    </div>
+    <div id="question-container" class="hide">
+      <div id="question">Question</div>
+      <div id="answer-buttons" class="btn-grid">
+        <button class="btn">Answer 1</button>
+        <button class="btn">Answer 2</button>
+        <button class="btn">Answer 3</button>
+        <button class="btn">Answer 4</button>
+      </div>
+    </div>
+    <div class="controls">
+      <button id="start-btn" class="start-btn btn">Start</button>
+      <button id="next-btn" class="next-btn btn hide">Next</button>
+    </div>
+  </div>
+</body>
+</html>
